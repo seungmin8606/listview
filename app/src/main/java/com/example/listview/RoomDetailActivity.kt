@@ -26,6 +26,6 @@ class RoomDetailActivity : BaseActivity() {
         wineryText.text = "${room.companyKR} / ${room.companyEN}"
         wineText.text = room.wineName
         EnText.text = room.wineEN
-        priceText.text = "${room.price}원"
+        priceText.text = "${room.price}원."
     }
 }

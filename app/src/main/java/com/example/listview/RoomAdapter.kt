@@ -32,7 +32,7 @@ class RoomAdapter(
         wine.text = data.wineName
         wineEN.text = data.wineEN
         winery.text = "${data.companyKR} / ${data.companyEN}"
-        price.text = "${data.price}원"
+        price.text = "${data.price}원."
 
         return row
     }
